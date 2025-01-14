@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>CyberProdutos</title>
+</head>
+<body>
+    <header>
+        <h1>CyberProdutos</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="#sobrenos">Sobre Nós</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+    <main>
+        <section id="menu">
+            <div id="container">
+                <h1>CyberProdutos</h1>
+                <br>
+                <p>Aqui você pode comprar produtos de alta qualidade <br> que cambem no seu bolso.</p>
+                <br>
+                <a href="#produtos"><button>Comprar Agora</button></a>
+            </div>
+        </section>
+        <div id="container2">
+            <section id="menu2"></section>
+            <h1>Oferta Disponível</h1>
+            <br>
+            <div id="produto">
+                <h2>Cadeira Gamer</h2>
+                <br>
+                <img id="imagem" onmouseover="porcima()" onmouseout="sair()" src="/assets/cadeira-gamer-riotoro-spitfire-x1s-rgb-reclinavel-black-gc-30x1s_106569.jpg" alt="Cadeira Gamer Riotoro Spitfire X1S RGB ">
+                <br><br>
+                <p class="lateral">De <del>R$1499,00</del> por <strong> R$999,99</strong></p>
+                <br>
+                <button>Comprar</button>
+            </div>
+        </div>
+
+        <section id="sobrenos">
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa criada em 2025 com somente um objetivo: se tornar a maior do mundo. Desde o início, buscamos inovar e tranformar o mercado com soluções inteligentes, eficientes e impactantes. Acreditamos em cada um dos nosso funcionários, na busca constante por melhorias e na dedicação incansável.</p>
+        </section>
+
+        <section id="menu3">
+            <h2>O que esperar de nós</h2>
+            <div class="card">
+                <i class="fa-solid fa-truck-fast"></i>
+                <p>Entregas rápidas</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-money-bill"></i>
+                <p>Preços que cabem no seu bolso</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-star"></i>
+                <p>Qualidade em nossos produtos</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-credit-card"></i>
+                <p>Pagamentos seguros</p>
+            </div>
+        </section>
+        <section id="produtos">
+            <h2>Nosso Produtos</h2>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
